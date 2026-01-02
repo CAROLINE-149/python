@@ -45,3 +45,29 @@ In Python, you can write multiple statements in a single line by separating them
 
 #Best practice is to write one statement per line for better readability.
 
+"""
+PYTHON OUTPUT
+In Python, the print() function is used to output data to the standard output device (screen).
+Text in python must be inside quotes either single or double.
+By default, the print() function ends with a newline character, which means that each print statement will be printed on a new line.
+If you want to print multiple words on the same line, you can use the end parameter.
+
+"""
+#Example
+#print("Hello World.", end=" ")  #This will print Hello World and stay on the same line
+#print("Welcome to Python")      #This will print Welcome to Python on the same line
+#print(2 + 3)  #This will print the result of 2 + 3 which is 5
+"""
+PYTHON OUTPUT NUMBERS
+Examples
+print(5)
+print(3.14)
+print(2 + 3) -will output 5
+print(10 / 2) -will output 5.0
+
+MIX TEXT AND NUMBERS
+Example
+print("I am", 20, "years old.")
+"""
+#Example
+#print("I have", 3, "cats and", 2, "dogs.")
