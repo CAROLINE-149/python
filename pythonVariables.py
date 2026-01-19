@@ -64,4 +64,36 @@ print(x)
 print(y)
 print(z)
 """
+"""
+#Unpack a Collection
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables.
+Example
+fruits=["apple","banana","cherry"]
+x,y,z=fruits
+print(x)
+print(y)
+print(z)
+"""
+"""
+GLOBAL VARIABLES
+Are varriables created outside of a function
+They can be used by everyone both inside of functions and outside.
+A LOCAL VARRIABLE is created inside a function and can only be used inside that specific function.
+To create a global varriable inside a function you use the keyword global.
+"""
+#Example
+"""
+x="awesome"
+def myFunction():
+    print("python is "  +  x)
+myFunction()
+"""
 
+#A global varriable in a function
+"""
+def myCarol():
+    global x
+    x="fantastic"
+    myCarol()
+print("Carol is " + x)
+"""

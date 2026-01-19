@@ -71,3 +71,14 @@ print("I am", 20, "years old.")
 """
 #Example
 #print("I have", 3, "cats and", 2, "dogs.")
+
+#In the print() function, you can output multiple variables, separated by a comma;
+#example
+#x="Python"
+#y="is"
+#z="awesome"
+#print(x,y,z) #Best practice
+
+#You can also use the + operator to output multiple variables;
+#However, when you try to combine a string and a number with the + operator python will give an error.
+#print(x  + y + z)
